@@ -1,0 +1,204 @@
+/* var color  */
+:root {
+  --orange: #fd7522;
+  --blue: #1569b2;
+  --green: #22b04b;
+  --black: #2e3642;
+  --white: #ffffff;
+}
+/* end var color  */
+
+/* -------------------------Table right------------------------- */
+/*//////////////////////////////////////////////////////////////////
+  [ RESTYLE TAG ]*/
+
+/* ------------------------------------ */
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+input {
+  display: block;
+  outline: none;
+  border: none !important;
+}
+
+textarea {
+  display: block;
+  outline: none;
+}
+
+textarea:focus,
+input:focus {
+  border-color: transparent !important;
+}
+
+/*//////////////////////////////////////////////////////////////////
+
+/* ------------------------Header------------------------ */
+
+.bg-color_orange
+{
+  background-color: var(--orange) !important;
+}
+
+/*//////////////////////////////////////////////////////////////////
+
+/* ------------------------Header------------------------ */
+
+/*//////////////////////////////////////////////////////////////////
+
+/* -------------------------Post------------------------- */
+.content_right {
+  padding-top: 10px;
+}
+.content_right_in {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.content_right_in:last-child {
+  margin-bottom: 10px;
+}
+.post_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.post_container_left {
+  display: flex;
+  flex: 1;
+  padding-top: 10px;
+}
+.post_container_left img {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+}
+.post_container_right {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+.post_container_right_header-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.post_container_right_header .post_container_right_header-title a {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s;
+}
+.post_container_right_header .post_container_right_header-title a:hover {
+  color: var(--blue);
+}
+.post_container_right_header-desc {
+  display: flex;
+  flex-wrap: wrap;
+  color: #555;
+  font-size: 17px;
+  background-color: #f7f7f7;
+  padding: 0 5px;
+  margin: 10px 0;
+}
+.post_container_right_header-desc .desc_author {
+  margin: 0 30px 0 0;
+}
+.post_container_right_header-desc .desc_time {
+  margin: 0 30px 0 0;
+}
+.post_container_right_body {
+  color: #555;
+  font-size: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.post_container_right_footer {
+  margin-top: auto;
+  overflow: hidden;
+}
+.post_container_right_footer a{
+  margin-left: -18px;
+  transition: all 0.3s;
+}
+.post_container_right_footer a:hover,
+.post_container_right_footer a:active{
+  margin-left: 20px;
+}
+.post_container_right_footer a i{
+  transition: all 0.3s;
+}
+.post_container_right_footer a i.active{
+  transform: rotate(90deg);
+}
+.btn_cmt_action {
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+  transition: all 0.3s;
+}
+.btn_cmt_action img {
+  width: 50px;
+  border-radius: 3px 0 0 3px;
+}
+/* End Table content right*/
+/* End Content right*/
+
+/* -----------------------End Content--------------------- */
+@media only screen and (max-width: 900px) {
+  .content_right {
+    margin: 0 !important;
+    padding: 0 5px !important;
+  }
+  .content_right_in {
+    margin: 10px 0 0 0 !important;
+  }
+  .post_container_left img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .post_container_right_header-title a {
+    font-size: 20px !important;
+  }
+  .post_container_right_body {
+    font-size: 15px !important;
+  }
+  .post_container_right_footer a {
+    font-size: 15px !important;
+  }
+  .post_container_left img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .post_container_left {
+    display: none;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .post_container_right_header-desc {
+    flex-direction: column;
+  }
+  .desc_time {
+    margin: 0 !important;
+  }
+}
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */

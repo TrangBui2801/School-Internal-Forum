@@ -1,0 +1,15 @@
+1/4: 
+Filter bài viết mới nhất ở trang chủ (Vẫn hiện bài viết mới nhất trong private group) - Done
+Phân quyền trong private group (User không trong nhóm không tìm được) - Done
+Làm tính năng quản lý QC
+Survey -> popup (Có ô không nhắc lại).
+QC (Thẻ div dưới annoucement)
+Các phần sidebar bỏ width 500px thay bằng fit-content - Done
+Menu thay bằng Home, categories (number), Test, about, FAQ, ... - Done
+Ấn vào category -> show list category -> topic -> thread - Done
+Search
+Bộ từ không được sử dụng (*).
+Approve post
+Admin show bảng hiển thị các bài viết đang chờ.
+Tạo fixture bằng tay. - Done
+Thêm toast message cho client và backend - Done

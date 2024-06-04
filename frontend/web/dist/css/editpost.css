@@ -1,0 +1,38 @@
+/* var color  */
+:root{
+    --orange: #FD7522;
+    --blue: #1569B2;
+    --green: #22B04B;
+    --black: #2E3642;
+    --white: #ffffff;
+}
+/* end var color  */
+
+/* Post title */
+.post__header-title{
+    flex: 1;
+}
+
+.post-inp-edit{
+    flex: 1;
+    font-size: 1.5rem;
+    box-shadow: none;
+}
+/* End Post title */
+
+.txtUpdatecmt{
+    color: #595959 !important;
+    width: 100% !important;
+    resize: none;
+    border: none;
+}
+.txtUpdatecmt:active, .txtUpdatecmt:focus{
+    border: none;
+    outline: none;
+}
+.btnUpdatecmt{
+    color: white;
+    background-color: var(--orange);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
